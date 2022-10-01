@@ -10,3 +10,17 @@ console.table({
     b : 2,
     c: 3
 });
+
+// you can group values
+console.group('Start1');
+console.log('a');
+console.log('b');
+console.log('c');
+console.groupEnd();
+
+// you can group values
+console.group('Start2');
+console.log('a');
+console.log('b');
+console.log('c');
+console.groupEnd();
